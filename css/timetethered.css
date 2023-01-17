@@ -1,0 +1,695 @@
+.donate-text {
+  width: 100%;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+
+.asterisks {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  height: 200px;
+  margin-right: 110px;
+  margin-left: auto;
+  padding-left: 81px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.asterisks.mobile {
+  display: none;
+}
+
+.spring-tour-ring {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 65vw;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  mix-blend-mode: color-dodge;
+}
+
+.main-container {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding-bottom: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image-20 {
+  position: relative;
+  z-index: -1;
+  width: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 1px 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+.image-20:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.body-font {
+  border-radius: 0px;
+  background-color: rgba(126, 221, 255, 0.38);
+  box-shadow: 0 0 19px 12px rgba(126, 221, 255, 0.38);
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #162b94;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05ch;
+  text-shadow: 1px 1px 1px #0054c2;
+}
+
+.body-font.support {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 8px;
+  padding-left: 10px;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.body-font.middle-container {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-right: auto;
+  margin-left: -60px;
+  padding-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  box-shadow: none;
+  text-align: center;
+}
+
+.body-font.date {
+  background-color: rgba(126, 221, 255, 0.2);
+  box-shadow: 0 0 19px 12px rgba(126, 221, 255, 0.2);
+}
+
+.body-font.middle {
+  position: relative;
+  background-color: rgba(126, 221, 255, 0.2);
+  box-shadow: 0 0 19px 12px rgba(126, 221, 255, 0.2);
+  text-align: center;
+}
+
+.butterfly {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 90vw;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0.68;
+  -webkit-filter: saturate(141%) hue-rotate(220deg) brightness(49%);
+  filter: saturate(141%) hue-rotate(220deg) brightness(49%);
+  mix-blend-mode: difference;
+}
+
+.donate_button {
+  position: relative;
+  top: 75px;
+  z-index: 100;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60vw;
+  padding-right: 0px;
+  padding-bottom: 190px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-radius: 20px;
+}
+
+.mycanvas {
+  width: 20%;
+  height: 20%;
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
+
+.image-16 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  bottom: 4%;
+  width: 24%;
+  max-width: 390px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.date-aside {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 1px;
+  height: 0px;
+}
+
+.support-icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.date-block {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.canvas-embed {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.tickets-button {
+  position: relative;
+  top: 3px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+  border-radius: 0px;
+  background-color: rgba(236, 255, 126, 0.38);
+  box-shadow: 0 0 19px 12px rgba(253, 255, 126, 0.38);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2ch;
+  text-shadow: 1px 1px 1px #0054c2;
+}
+
+.tickets-button:hover {
+  background-color: rgba(236, 255, 126, 0.8);
+  box-shadow: 0 0 19px 12px rgba(253, 255, 126, 0.8);
+}
+
+.tickets-button.hide {
+  display: none;
+}
+
+.spring-tour-container {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.date-tickets-container {
+  position: absolute;
+  left: -151px;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+  width: 1px;
+  height: 0px;
+}
+
+.spring-tour-text {
+  position: relative;
+  z-index: 100;
+  width: 75vw;
+  max-width: 1000px;
+  mix-blend-mode: luminosity;
+}
+
+.donate-box {
+  position: absolute;
+  top: 120px;
+  display: block;
+  overflow: hidden;
+  width: 60vw;
+  height: 0px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 40px;
+  background-color: hsla(0, 0%, 100%, 0.68);
+  box-shadow: 1px 1px 20px 20px hsla(0, 0%, 100%, 0.68);
+  opacity: 0;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #162b94;
+  font-weight: 700;
+  text-align: center;
+}
+
+.cryogeyser {
+  position: relative;
+  width: 1300px;
+  max-width: 90vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.date-aside-container {
+  position: relative;
+  top: -5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+}
+
+.date-aside-container.add-space {
+  padding-left: 82px;
+}
+
+.header-container {
+  position: relative;
+}
+
+.green-bg {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #b30057;
+  opacity: 0.85;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  mix-blend-mode: difference;
+}
+
+.dates {
+  width: 60vw;
+  max-width: 800px;
+  min-width: 670px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.image-18 {
+  position: relative;
+  display: block;
+  overflow: visible;
+  width: 80px;
+  height: 30px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.fudge_bg {
+  position: absolute;
+  width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  opacity: 1;
+  mix-blend-mode: hard-light;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.fudge_bg.no-blend {
+  display: none;
+  opacity: 0.71;
+  mix-blend-mode: multiply;
+}
+
+.text-block-5 {
+  margin-bottom: 40px;
+}
+
+.text-block-4 {
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+
+.body-8 {
+  min-height: 100%;
+  mix-blend-mode: multiply;
+}
+
+.html-embed-4 {
+  display: none;
+  width: 0px;
+  height: 0px;
+}
+
+.date-item {
+  position: relative;
+}
+
+@media screen and (max-width: 991px) {
+  .body-font {
+    font-size: 14px;
+  }
+
+  .body-font.middle-container {
+    margin-left: -18px;
+  }
+
+  .support-icon {
+    bottom: -6px;
+    height: 25px;
+  }
+
+  .tickets-button {
+    font-size: 12px;
+  }
+
+  .date-tickets-container {
+    left: -129px;
+  }
+
+  .date-aside-container {
+    width: 170px;
+  }
+
+  .date-aside-container.tickets {
+    top: -5px;
+    width: auto;
+  }
+
+  .date-aside-container.add-space {
+    padding-left: 61px;
+  }
+
+  .dates {
+    width: 50vw;
+    min-width: 440px;
+  }
+
+  .image-18 {
+    bottom: -6px;
+    width: 40px;
+    height: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .asterisks {
+    display: none;
+  }
+
+  .asterisks.mobile {
+    display: -ms-grid;
+    display: grid;
+    width: auto;
+    height: 130px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 80px;
+    padding-top: 24px;
+    padding-right: 20px;
+    padding-left: 20px;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .spring-tour-ring {
+    width: 100vw;
+    -webkit-filter: hue-rotate(180deg) blur(2px) contrast(200%);
+    filter: hue-rotate(180deg) blur(2px) contrast(200%);
+    mix-blend-mode: normal;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+
+  .main-container {
+    position: static;
+    z-index: 10;
+    overflow: auto;
+    height: 100vh;
+    padding-top: 40px;
+    background-image: url('../images/cryogeyser_spring2023tour_flyer-1-1-1.jpg');
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .body-font {
+    font-size: 12px;
+  }
+
+  .body-font.middle-container {
+    margin-left: auto;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .butterfly {
+    display: block;
+  }
+
+  .mycanvas {
+    position: relative;
+    top: 139px;
+    width: 20%;
+    height: 20%;
+    -webkit-transform: scale(20);
+    -ms-transform: scale(20);
+    transform: scale(20);
+  }
+
+  .date-aside {
+    right: auto;
+    width: 100%;
+  }
+
+  .support-icon {
+    clear: none;
+  }
+
+  .date-block {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .canvas-embed {
+    height: 100vh;
+  }
+
+  .tickets-button {
+    top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: none;
+    color: #fff;
+  }
+
+  .spring-tour-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .date-tickets-container {
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: 100%;
+  }
+
+  .spring-tour-text {
+    width: 90vw;
+    padding-top: 14px;
+    -webkit-filter: hue-rotate(90deg);
+    filter: hue-rotate(90deg);
+    mix-blend-mode: normal;
+  }
+
+  .date-aside-container {
+    top: 15px;
+    width: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+
+  .date-aside-container.tickets {
+    top: auto;
+    bottom: -19px;
+    margin-left: auto;
+  }
+
+  .header-container {
+    padding-top: 100px;
+  }
+
+  .green-bg {
+    height: auto;
+    margin-right: -20px;
+    margin-bottom: -27px;
+    margin-left: -14px;
+    padding-left: 0px;
+    background-color: rgba(70, 243, 171, 0.62);
+    mix-blend-mode: normal;
+  }
+
+  .dates {
+    width: 40vw;
+    max-width: 780px;
+    min-width: 310px;
+  }
+
+  .image-18.extra-space {
+    bottom: -26px;
+  }
+
+  .fudge_bg {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: block;
+    background-color: #cf7b7b;
+    background-image: url('../images/cryogeyser_spring2023tour_flyer-1-1-1.jpg');
+    background-position: 0px 0px;
+    background-size: contain;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+
+  .text-block-5 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .text-block-4 {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .body-8 {
+    overflow: hidden;
+  }
+
+  .date-item {
+    position: relative;
+    padding-bottom: 100px;
+  }
+}
+
