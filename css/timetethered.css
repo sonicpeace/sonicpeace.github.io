@@ -485,6 +485,7 @@
 
 .additional-tour__text {
   animation: 24s linear infinite spinner;
+  animation-iteration-count: infinite;
   animation-play-state: inherit;
   will-change: transform;
   position: absolute;
