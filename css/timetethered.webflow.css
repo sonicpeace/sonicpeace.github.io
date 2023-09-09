@@ -1,0 +1,1002 @@
+.donate-text {
+  width: 100%;
+  text-align: center;
+  letter-spacing: .2ch;
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.donate-text.is--dark {
+  color: #000;
+}
+
+.asterisks {
+  width: 300px;
+  height: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: 110px;
+  padding-left: 81px;
+  display: flex;
+  position: relative;
+}
+
+.asterisks.mobile {
+  display: none;
+}
+
+.spring-tour-ring {
+  width: 65vw;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.main-container {
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 200px;
+  display: flex;
+  position: relative;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.image-20 {
+  z-index: -1;
+  width: 80px;
+  background-color: rgba(255, 255, 255, .2);
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  box-shadow: 1px 1px 20px 20px rgba(255, 255, 255, .2);
+}
+
+.image-20:hover {
+  transform: scale(1.2);
+}
+
+.body-font {
+  box-shadow: none;
+  color: #11183d;
+  text-align: right;
+  letter-spacing: .05ch;
+  text-shadow: 1px 1px 1px #0054c2;
+  border-radius: 0;
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.body-font.support {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 8px;
+  padding-left: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.body-font.middle-container {
+  width: 100%;
+  box-shadow: none;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.body-font.middle {
+  text-align: center;
+  position: relative;
+}
+
+.butterfly {
+  width: 90vw;
+  max-width: 1200px;
+  opacity: 0;
+  filter: contrast(93%);
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.donate_button {
+  z-index: 100;
+  width: 60vw;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 190px;
+  padding-right: 0;
+  display: flex;
+  position: relative;
+  top: 75px;
+}
+
+.mycanvas {
+  width: 20%;
+  height: 20%;
+  transform: scale(10);
+}
+
+.image-16 {
+  width: 24%;
+  max-width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 4%;
+  left: 0%;
+  right: 0%;
+}
+
+.date-aside {
+  width: 1px;
+  height: 0;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.support-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  position: relative;
+}
+
+.date-block {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  display: flex;
+  position: relative;
+}
+
+.canvas-embed {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  overflow: hidden;
+  transform: rotate(180deg);
+}
+
+.tickets-button {
+  color: #fff;
+  letter-spacing: .2ch;
+  text-shadow: 1px 1px 1px #0054c2;
+  background-color: rgba(236, 255, 126, .38);
+  border: 2px solid #fff;
+  border-radius: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  top: 3px;
+  box-shadow: 0 0 19px 12px rgba(253, 255, 126, .38);
+}
+
+.tickets-button:hover {
+  background-color: rgba(236, 255, 126, .8);
+  box-shadow: 0 0 19px 12px rgba(253, 255, 126, .8);
+}
+
+.tickets-button.hide {
+  display: none;
+}
+
+.tickets-button.is--red {
+  background-color: rgba(255, 126, 141, .38);
+  box-shadow: 0 0 19px 12px rgba(255, 126, 128, .38);
+}
+
+.tickets-button.is--red:hover {
+  background-color: rgba(255, 0, 47, .49);
+  box-shadow: 0 0 25px 20px rgba(255, 0, 4, .65);
+}
+
+.tickets-button.is--blue {
+  background-color: rgba(126, 141, 255, .38);
+  box-shadow: 0 0 19px 12px rgba(126, 145, 255, .38);
+}
+
+.tickets-button.is--blue:hover {
+  background-color: rgba(0, 115, 255, .49);
+  box-shadow: 0 0 25px 20px rgba(0, 106, 255, .58);
+}
+
+.spring-tour-container {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.date-tickets-container {
+  width: 1px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: -151px;
+  right: auto;
+}
+
+.spring-tour-text {
+  z-index: 100;
+  width: 75vw;
+  max-width: 1000px;
+  mix-blend-mode: luminosity;
+  position: relative;
+}
+
+.donate-box {
+  width: 60vw;
+  height: 0;
+  color: #162b94;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .68);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 40px;
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  top: 120px;
+  overflow: hidden;
+  box-shadow: 1px 1px 20px 20px rgba(255, 255, 255, .68);
+}
+
+.cryogeyser {
+  width: 1300px;
+  max-width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.date-aside-container {
+  width: 200px;
+  display: flex;
+  position: relative;
+  top: -5px;
+}
+
+.date-aside-container.tickets {
+  width: 0;
+}
+
+.date-aside-container.add-space {
+  padding-left: 82px;
+}
+
+.header-container {
+  width: 100%;
+  margin-bottom: 120px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.green-bg {
+  height: 200px;
+  opacity: .85;
+  filter: blur(10px);
+  mix-blend-mode: difference;
+  background-color: #b30057;
+  border-radius: 100%;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.dates {
+  width: 60vw;
+  max-width: 800px;
+  min-width: 670px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.image-18 {
+  width: 80px;
+  height: 30px;
+  object-fit: contain;
+  display: block;
+  position: relative;
+  overflow: visible;
+}
+
+.fudge_bg {
+  width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  opacity: 1;
+  mix-blend-mode: hard-light;
+  object-fit: cover;
+  position: absolute;
+}
+
+.fudge_bg.no-blend {
+  opacity: .71;
+  mix-blend-mode: multiply;
+  display: none;
+}
+
+.fudge_bg.is-red {
+  opacity: .9;
+  filter: hue-rotate(108deg);
+  mix-blend-mode: hue;
+}
+
+.text-block-5 {
+  margin-bottom: 40px;
+}
+
+.text-block-4 {
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+
+.body-8 {
+  min-height: 100%;
+  mix-blend-mode: multiply;
+}
+
+.html-embed-4 {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.date-item {
+  list-style: none;
+  position: relative;
+}
+
+.wednesday-button {
+  z-index: 100;
+  width: 60vw;
+  mix-blend-mode: color-burn;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 190px;
+  padding-right: 0;
+  display: flex;
+  position: relative;
+  top: 75px;
+}
+
+.wednesday-button__img {
+  width: 35vw;
+  cursor: pointer;
+  mix-blend-mode: color-burn;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wednesday-button__img:hover {
+  background-color: #addeff;
+  border-radius: 100%;
+  box-shadow: 0 0 100px 20px #09f;
+}
+
+.additional-tour__text {
+  width: 100%;
+  color: #000;
+  text-align: center;
+  letter-spacing: .05ch;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-size: 2vw;
+  font-weight: 400;
+  position: absolute;
+}
+
+.utility-page-wrap {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.utility-page-content {
+  width: 260px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.utility-page-form {
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+}
+
+.cryogeyser-cursive {
+  width: 70%;
+  max-width: 750px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  display: block;
+  position: relative;
+}
+
+.section_dates {
+  width: 60vw;
+  max-width: 800px;
+  min-width: 600px;
+  padding-left: 0;
+  position: relative;
+  left: 5vw;
+}
+
+.section {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 80px;
+  display: flex;
+}
+
+.main-container-home {
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 200px;
+  display: flex;
+  position: relative;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.citizen-logo {
+  width: 50%;
+  max-width: 500px;
+  min-width: 390px;
+  filter: brightness(6%) saturate(10000%) hue-rotate(223deg) contrast(200%);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: block;
+  position: relative;
+}
+
+.nav {
+  z-index: 100;
+  min-height: 40px;
+  grid-column-gap: 28px;
+  background-color: #000;
+  justify-content: flex-end;
+  padding: 9px 25px;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.nav-icon {
+  width: 26px;
+  display: block;
+}
+
+.nav-icon.ig {
+  width: 24px;
+  margin-top: 1px;
+}
+
+.squirrel-flower_logo {
+  width: 50%;
+  max-width: 500px;
+  min-width: 400px;
+  filter: hue-rotate(223deg);
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0;
+  display: block;
+  position: relative;
+}
+
+.supporting-text {
+  box-shadow: none;
+  color: #11183d;
+  text-align: center;
+  letter-spacing: .2ch;
+  text-shadow: 1px 1px 1px #0054c2;
+  border-radius: 0;
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.supporting-text.support {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 8px;
+  padding-left: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.supporting-text.middle-container {
+  width: 100%;
+  box-shadow: none;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.supporting-text.middle {
+  text-align: center;
+  position: relative;
+}
+
+.supporting-text.citizen {
+  font-style: italic;
+  position: absolute;
+  top: -31px;
+  left: 0;
+  right: 0;
+}
+
+.supporting-text.squirrel-flower {
+  z-index: -1;
+  font-style: italic;
+  position: absolute;
+  top: 57px;
+  left: -81px;
+  right: 0;
+}
+
+.html-embed-5 {
+  z-index: 1000;
+  width: 40px;
+  position: relative;
+}
+
+.tickets-image {
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .body-font {
+    font-size: 14px;
+  }
+
+  .body-font.middle-container {
+    margin-left: -18px;
+  }
+
+  .support-icon {
+    height: 25px;
+    bottom: -6px;
+  }
+
+  .tickets-button {
+    font-size: 12px;
+  }
+
+  .date-tickets-container {
+    left: -129px;
+  }
+
+  .date-aside-container {
+    width: 170px;
+  }
+
+  .date-aside-container.tickets {
+    width: auto;
+    top: -5px;
+  }
+
+  .date-aside-container.add-space {
+    padding-left: 61px;
+  }
+
+  .dates {
+    width: 50vw;
+    min-width: 440px;
+  }
+
+  .image-18 {
+    width: 40px;
+    height: 20px;
+    margin-left: 20px;
+    bottom: -6px;
+  }
+
+  .cryogeyser-cursive {
+    width: 90%;
+  }
+
+  .section_dates {
+    width: 50vw;
+    min-width: 440px;
+  }
+
+  .supporting-text {
+    font-size: 14px;
+  }
+
+  .supporting-text.middle-container {
+    margin-left: -18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-container {
+    margin-bottom: 80px;
+  }
+
+  .citizen-logo {
+    min-width: 340px;
+  }
+
+  .squirrel-flower_logo {
+    min-width: 370px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .donate-text {
+    color: #000;
+    letter-spacing: .2ch;
+    font-style: italic;
+  }
+
+  .asterisks {
+    display: none;
+  }
+
+  .asterisks.mobile {
+    width: auto;
+    height: 130px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    margin-top: 0;
+    margin-bottom: 80px;
+    margin-right: auto;
+    padding-top: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+  }
+
+  .spring-tour-ring {
+    width: 100vw;
+    filter: hue-rotate(180deg) blur(2px) contrast(200%);
+    mix-blend-mode: normal;
+    object-fit: fill;
+  }
+
+  .main-container {
+    z-index: 10;
+    height: 100vh;
+    background-image: url('../images/cryogeyser_spring2023tour_flyer-1-1-1.jpg');
+    background-size: cover;
+    padding-top: 40px;
+    position: static;
+    overflow: auto;
+  }
+
+  .body-font {
+    text-shadow: 1px 1px 1px #0054c2;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .body-font.support {
+    bottom: -5px;
+    left: -5px;
+  }
+
+  .body-font.middle-container {
+    justify-content: flex-start;
+  }
+
+  .butterfly {
+    display: block;
+  }
+
+  .donate_button {
+    cursor: pointer;
+  }
+
+  .mycanvas {
+    width: 20%;
+    height: 20%;
+    position: relative;
+    top: 139px;
+    transform: scale(20);
+  }
+
+  .date-aside {
+    width: 100%;
+    right: auto;
+  }
+
+  .support-icon {
+    clear: none;
+  }
+
+  .date-block {
+    align-items: flex-start;
+  }
+
+  .canvas-embed {
+    height: 100vh;
+  }
+
+  .tickets-button {
+    box-shadow: none;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20px;
+  }
+
+  .spring-tour-container {
+    width: 100%;
+    justify-content: center;
+    margin-top: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+  }
+
+  .date-tickets-container {
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+  }
+
+  .spring-tour-text {
+    width: 90vw;
+    filter: hue-rotate(90deg);
+    mix-blend-mode: normal;
+    padding-top: 14px;
+  }
+
+  .donate-box {
+    height: 185px;
+    opacity: 1;
+    background-color: rgba(220, 172, 255, .7);
+    border-radius: 300px;
+    left: 0;
+    right: 0;
+    box-shadow: 1px 1px 40px 20px rgba(210, 151, 255, .7);
+  }
+
+  .date-aside-container {
+    width: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: auto;
+    top: 15px;
+  }
+
+  .date-aside-container.tickets {
+    margin-left: -37px;
+    top: auto;
+    bottom: -19px;
+  }
+
+  .header-container {
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+
+  .green-bg {
+    height: auto;
+    mix-blend-mode: normal;
+    background-color: rgba(69, 243, 171, .62);
+    margin-bottom: -27px;
+    margin-left: -14px;
+    margin-right: -20px;
+    padding-left: 0;
+  }
+
+  .dates {
+    width: 40vw;
+    max-width: 780px;
+    min-width: 310px;
+  }
+
+  .image-18.extra-space {
+    bottom: -26px;
+  }
+
+  .fudge_bg {
+    object-fit: fill;
+    background-color: #cf7b7b;
+    background-image: url('../images/cryogeyser_spring2023tour_flyer-1-1-1.jpg');
+    background-position: 0 0;
+    background-size: contain;
+    display: block;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+  }
+
+  .text-block-5 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .text-block-4 {
+    letter-spacing: .1ch;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .body-8 {
+    overflow: hidden;
+  }
+
+  .date-item {
+    padding-bottom: 100px;
+    list-style: none;
+    position: relative;
+  }
+
+  .wednesday-button__img {
+    width: 80vw;
+  }
+
+  .additional-tour__text {
+    font-size: 3.9vw;
+  }
+
+  .cryogeyser-cursive {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section_dates {
+    width: 40vw;
+    max-width: 780px;
+    min-width: 330px;
+    left: 0;
+  }
+
+  .section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .main-container-home {
+    z-index: 10;
+    height: 100vh;
+    padding-top: 40px;
+    position: static;
+    overflow: auto;
+  }
+
+  .citizen-logo {
+    width: 100%;
+    max-width: 240px;
+    min-width: 0;
+  }
+
+  .nav-icon, .nav-icon.apple {
+    width: 27px;
+  }
+
+  .squirrel-flower_logo {
+    width: 100%;
+    max-width: 280px;
+    min-width: 0;
+  }
+
+  .supporting-text {
+    letter-spacing: .2ch;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .supporting-text.support {
+    bottom: -5px;
+    left: -5px;
+  }
+
+  .supporting-text.middle-container {
+    justify-content: flex-start;
+    margin-left: auto;
+  }
+
+  .supporting-text.squirrel-flower {
+    top: 43px;
+    left: -55px;
+  }
+}
+
+
