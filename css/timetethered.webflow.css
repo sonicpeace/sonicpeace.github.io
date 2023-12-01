@@ -311,7 +311,7 @@
 
 .header-container {
   width: 100%;
-  margin-bottom: 120px;
+  margin-bottom: 20px; 
   padding-top: 100px;
   padding-bottom: 60px;
   position: relative;
@@ -986,7 +986,7 @@
 
   .supporting-text.support {
     bottom: -5px;
-    left: -5px;
+    left: -5px; 
   }
 
   .supporting-text.middle-container {
@@ -1000,4 +1000,6 @@
   }
 }
 
-
+#citizen-tour{
+  display:none;
+}
