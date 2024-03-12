@@ -642,9 +642,12 @@
 }
 
 .nav-button-wrapper {
+  overflow: visible !important;
   justify-content: center;
   align-items: center;
   display: flex;
+  z-index: 10000;
+
 }
 
 .merch-button-image {
@@ -696,6 +699,8 @@
 
 .button-link-block {
   position: relative;
+  overflow: visible !important;
+  cursor: pointer;
 }
 
 .button-main-wrapper {
@@ -705,6 +710,7 @@
 
 .tickets-button-image {
   max-width: 40vw;
+  overflow: visible !important;
   cursor: pointer;
   padding-left: 20px;
   padding-right: 20px;
@@ -713,6 +719,7 @@
 
 .tickets-button-image:hover {
   filter: drop-shadow(1px 1px 10px rgba(50, 20, 200, .5));
+  overflow: visible !important;
 }
 
 .tickets-button-image.hover {
@@ -720,20 +727,24 @@
   opacity: 0;
   transition: opacity .4s;
   position: absolute;
+  overflow: visible !important;
 }
 
 .tickets-button-image.hover:hover {
   opacity: .58;
   filter: drop-shadow(0 0 20px rgba(50, 20, 200, .5));
+  overflow: visible !important;
 }
 
 .tickets-button-image.special {
   z-index: 3;
   position: absolute;
+  overflow: visible !important;
 }
 
 .tickets-button-image.special:hover {
   opacity: 1;
+  overflow: visible !important;
 }
 
 @media screen and (max-width: 991px) {
@@ -1112,6 +1123,8 @@
     flex-flow: column;
     padding-left: 30px;
     padding-right: 30px;
+    z-index: 10000;
+    overflow: visible !important;
   }
 
   .merch-button-image {
@@ -1141,6 +1154,7 @@
 
   .button-link-block {
     width: 100%;
+    overflow: visible !important;
   }
 
   .button-main-wrapper {
