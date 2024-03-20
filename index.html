@@ -147,7 +147,7 @@ mainImage(gl_FragColor, gl_FragCoord.xy);
       <div class="nav-button-wrapper">
         <a href="https://cryogeyser.square.site/" target="_blank" class="button-link-block w-inline-block"><img src="images/Store-icon-button-3.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, 42vw" srcset="images/Store-icon-button-3-p-500.png 500w, images/Store-icon-button-3.png 700w" alt="" class="merch-button-image hover"><img src="images/Store-icon-button-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, 42vw" srcset="images/Store-icon-button-1-p-500.png 500w, images/Store-icon-button-1.png 700w" alt="" class="merch-button-image"></a>
         <a href="https://link.dice.fm/q3f67f6de1fd" target="_blank" class="button-link-block heart no-pointing w-inline-block">
-          <div class="countdown">
+          <!-- <div class="countdown">
             <div id="js-clock" class="js-clock">
               <div class="box">
                 <div id="js-clock-days" class="clock-number donate-text">00</div>
@@ -165,13 +165,9 @@ mainImage(gl_FragColor, gl_FragCoord.xy);
                 <div id="js-clock-seconds" class="clock-number donate-text">00</div>
                 <div class="clock-label donate-text">Sec</div>
               </div>
-            </div>
+            </div> -->
             <div class="w-embed">
-              <style>
-.no-pointing{
-pointer-events: none;
-}
-</style>
+
             </div>
           </div><img src="images/Pre-sale-icon-light.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, 40vw" srcset="images/Pre-sale-icon-light-p-500.webp 500w, images/Pre-sale-icon-light.webp 750w" alt="" class="tickets-button-image hover"><img src="images/Pre-sale-icon-button.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, 40vw" srcset="images/Pre-sale-icon-button-p-500.webp 500w, images/Pre-sale-icon-button.webp 750w" alt="" class="tickets-button-image">
         </a>
@@ -199,45 +195,45 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
   <script>
-(function () {
-    var deadline = '2024/03/15 09:00';
-    function pad(num, size) {
-        var s = "0" + num;
-        return s.substr(s.length - size);
-    }
-    // fixes "Date.parse(date)" on safari
-    function parseDate(date) {
-        const parsed = Date.parse(date);
-        if (!isNaN(parsed)) return parsed
-        return Date.parse(date.replace(/-/g, '/').replace(/[a-z]+/gi, ' '));
-    }
-    function getTimeRemaining(endtime) {
-        let total = parseDate(endtime) - Date.parse(new Date())
-        let seconds = Math.floor((total / 1000) % 60)
-        let minutes = Math.floor((total / 1000 / 60) % 60)
-        let hours = Math.floor((total / (1000 * 60 * 60)) % 24)
-        let days = Math.floor(total / (1000 * 60 * 60 * 24))
-        return { total, days, hours, minutes, seconds };
-    }
-    function clock(id, endtime) {
-        let days = document.getElementById(id + '-days')
-        let hours = document.getElementById(id + '-hours')
-        let minutes = document.getElementById(id + '-minutes')
-        let seconds = document.getElementById(id + '-seconds')
-        var timeinterval = setInterval(function () {
-            var time = getTimeRemaining(endtime);
-            if (time.total <= 0) {
-                clearInterval(timeinterval);
-            } else {
-                days.innerHTML = pad(time.days, 2);
-                hours.innerHTML = pad(time.hours, 2);
-                minutes.innerHTML = pad(time.minutes, 2);
-                seconds.innerHTML = pad(time.seconds, 2);
-            }
-        }, 1000);
-    }
-    clock('js-clock', deadline);
-})();
+// (function () {
+//     var deadline = '2024/03/15 09:00';
+//     function pad(num, size) {
+//         var s = "0" + num;
+//         return s.substr(s.length - size);
+//     }
+//     // fixes "Date.parse(date)" on safari
+//     function parseDate(date) {
+//         const parsed = Date.parse(date);
+//         if (!isNaN(parsed)) return parsed
+//         return Date.parse(date.replace(/-/g, '/').replace(/[a-z]+/gi, ' '));
+//     }
+//     function getTimeRemaining(endtime) {
+//         let total = parseDate(endtime) - Date.parse(new Date())
+//         let seconds = Math.floor((total / 1000) % 60)
+//         let minutes = Math.floor((total / 1000 / 60) % 60)
+//         let hours = Math.floor((total / (1000 * 60 * 60)) % 24)
+//         let days = Math.floor(total / (1000 * 60 * 60 * 24))
+//         return { total, days, hours, minutes, seconds };
+//     }
+//     function clock(id, endtime) {
+//         let days = document.getElementById(id + '-days')
+//         let hours = document.getElementById(id + '-hours')
+//         let minutes = document.getElementById(id + '-minutes')
+//         let seconds = document.getElementById(id + '-seconds')
+//         var timeinterval = setInterval(function () {
+//             var time = getTimeRemaining(endtime);
+//             if (time.total <= 0) {
+//                 clearInterval(timeinterval);
+//             } else {
+//                 days.innerHTML = pad(time.days, 2);
+//                 hours.innerHTML = pad(time.hours, 2);
+//                 minutes.innerHTML = pad(time.minutes, 2);
+//                 seconds.innerHTML = pad(time.seconds, 2);
+//             }
+//         }, 1000);
+//     }
+//     clock('js-clock', deadline);
+// })();
 </script>
 </body>
 </html>
