@@ -702,15 +702,6 @@
   position: relative;
 }
 
-.button-link-block.heart {
-  cursor: none;
-}
-
-.button-link-block.heart.unavailable {
-  opacity: .36;
-  filter: brightness(141%);
-}
-
 .button-main-wrapper {
   width: 100%;
   position: relative;
