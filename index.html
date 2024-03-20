@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Tue Mar 12 2024 20:54:16 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed Mar 20 2024 05:33:04 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="63c6386f46467c581002f290" data-wf-site="63c6386f46467c249402f28f">
 <head>
   <meta charset="utf-8">
@@ -146,31 +146,7 @@ mainImage(gl_FragColor, gl_FragCoord.xy);
     <div class="button-main-wrapper">
       <div class="nav-button-wrapper">
         <a href="https://cryogeyser.square.site/" target="_blank" class="button-link-block w-inline-block"><img src="images/Store-icon-button-3.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, 42vw" srcset="images/Store-icon-button-3-p-500.png 500w, images/Store-icon-button-3.png 700w" alt="" class="merch-button-image hover"><img src="images/Store-icon-button-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, 42vw" srcset="images/Store-icon-button-1-p-500.png 500w, images/Store-icon-button-1.png 700w" alt="" class="merch-button-image"></a>
-        <a href="https://link.dice.fm/q3f67f6de1fd" target="_blank" class="button-link-block heart no-pointing w-inline-block">
-          <!-- <div class="countdown">
-            <div id="js-clock" class="js-clock">
-              <div class="box">
-                <div id="js-clock-days" class="clock-number donate-text">00</div>
-                <div class="clock-label donate-text">Days</div>
-              </div>
-              <div class="box">
-                <div id="js-clock-hours" class="clock-number donate-text">00</div>
-                <div class="clock-label donate-text">Hrs</div>
-              </div>
-              <div class="box">
-                <div id="js-clock-minutes" class="clock-number donate-text">00</div>
-                <div class="clock-label donate-text">Min</div>
-              </div>
-              <div class="box">
-                <div id="js-clock-seconds" class="clock-number donate-text">00</div>
-                <div class="clock-label donate-text">Sec</div>
-              </div>
-            </div> -->
-            <div class="w-embed">
-
-            </div>
-          </div><img src="images/Pre-sale-icon-light.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, 40vw" srcset="images/Pre-sale-icon-light-p-500.webp 500w, images/Pre-sale-icon-light.webp 750w" alt="" class="tickets-button-image hover"><img src="images/Pre-sale-icon-button.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, 40vw" srcset="images/Pre-sale-icon-button-p-500.webp 500w, images/Pre-sale-icon-button.webp 750w" alt="" class="tickets-button-image">
-        </a>
+        <a href="https://link.dice.fm/q3f67f6de1fd" target="_blank" class="button-link-block heart w-inline-block"><img src="images/Pre-sale-icon-light.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, 40vw" srcset="images/Pre-sale-icon-light-p-500.webp 500w, images/Pre-sale-icon-light.webp 750w" alt="" class="tickets-button-image hover"><img src="images/Pre-sale-icon-button.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, 40vw" srcset="images/Pre-sale-icon-button-p-500.webp 500w, images/Pre-sale-icon-button.webp 750w" alt="" class="tickets-button-image"></a>
       </div>
     </div>
     <div class="donate_button"><img src="images/Heart_1Heart.png" loading="lazy" data-w-id="a4fa754e-5f91-ae93-10c4-1e12c1eb1f2b" alt="" class="image-20">
@@ -195,45 +171,45 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
   <script>
-// (function () {
-//     var deadline = '2024/03/15 09:00';
-//     function pad(num, size) {
-//         var s = "0" + num;
-//         return s.substr(s.length - size);
-//     }
-//     // fixes "Date.parse(date)" on safari
-//     function parseDate(date) {
-//         const parsed = Date.parse(date);
-//         if (!isNaN(parsed)) return parsed
-//         return Date.parse(date.replace(/-/g, '/').replace(/[a-z]+/gi, ' '));
-//     }
-//     function getTimeRemaining(endtime) {
-//         let total = parseDate(endtime) - Date.parse(new Date())
-//         let seconds = Math.floor((total / 1000) % 60)
-//         let minutes = Math.floor((total / 1000 / 60) % 60)
-//         let hours = Math.floor((total / (1000 * 60 * 60)) % 24)
-//         let days = Math.floor(total / (1000 * 60 * 60 * 24))
-//         return { total, days, hours, minutes, seconds };
-//     }
-//     function clock(id, endtime) {
-//         let days = document.getElementById(id + '-days')
-//         let hours = document.getElementById(id + '-hours')
-//         let minutes = document.getElementById(id + '-minutes')
-//         let seconds = document.getElementById(id + '-seconds')
-//         var timeinterval = setInterval(function () {
-//             var time = getTimeRemaining(endtime);
-//             if (time.total <= 0) {
-//                 clearInterval(timeinterval);
-//             } else {
-//                 days.innerHTML = pad(time.days, 2);
-//                 hours.innerHTML = pad(time.hours, 2);
-//                 minutes.innerHTML = pad(time.minutes, 2);
-//                 seconds.innerHTML = pad(time.seconds, 2);
-//             }
-//         }, 1000);
-//     }
-//     clock('js-clock', deadline);
-// })();
+(function () {
+    var deadline = '2024/03/15 09:00';
+    function pad(num, size) {
+        var s = "0" + num;
+        return s.substr(s.length - size);
+    }
+    // fixes "Date.parse(date)" on safari
+    function parseDate(date) {
+        const parsed = Date.parse(date);
+        if (!isNaN(parsed)) return parsed
+        return Date.parse(date.replace(/-/g, '/').replace(/[a-z]+/gi, ' '));
+    }
+    function getTimeRemaining(endtime) {
+        let total = parseDate(endtime) - Date.parse(new Date())
+        let seconds = Math.floor((total / 1000) % 60)
+        let minutes = Math.floor((total / 1000 / 60) % 60)
+        let hours = Math.floor((total / (1000 * 60 * 60)) % 24)
+        let days = Math.floor(total / (1000 * 60 * 60 * 24))
+        return { total, days, hours, minutes, seconds };
+    }
+    function clock(id, endtime) {
+        let days = document.getElementById(id + '-days')
+        let hours = document.getElementById(id + '-hours')
+        let minutes = document.getElementById(id + '-minutes')
+        let seconds = document.getElementById(id + '-seconds')
+        var timeinterval = setInterval(function () {
+            var time = getTimeRemaining(endtime);
+            if (time.total <= 0) {
+                clearInterval(timeinterval);
+            } else {
+                days.innerHTML = pad(time.days, 2);
+                hours.innerHTML = pad(time.hours, 2);
+                minutes.innerHTML = pad(time.minutes, 2);
+                seconds.innerHTML = pad(time.seconds, 2);
+            }
+        }, 1000);
+    }
+    clock('js-clock', deadline);
+})();
 </script>
 </body>
 </html>

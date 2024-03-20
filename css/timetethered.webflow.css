@@ -702,6 +702,11 @@
   position: relative;
 }
 
+.button-link-block.heart.unavailable {
+  opacity: .36;
+  filter: brightness(141%);
+}
+
 .button-main-wrapper {
   width: 100%;
   position: relative;
@@ -709,8 +714,6 @@
 
 .tickets-button-image {
   max-width: 40vw;
-  opacity: .6;
-  filter: brightness(130%) contrast(76%) grayscale(86%);
   cursor: pointer;
   padding: 20px;
   position: relative;
