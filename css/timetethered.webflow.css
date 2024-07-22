@@ -42,7 +42,10 @@
   margin-left: auto;
   margin-right: auto;
   position: absolute;
-  inset: 0%;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
 }
 
 .main-container {
@@ -52,18 +55,21 @@
   padding-bottom: 200px;
   display: flex;
   position: relative;
-  inset: 0%;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
 }
 
 .image-20 {
   z-index: -1;
-  background-color: #fff3;
+  background-color: rgba(255, 255, 255, .2);
   border-radius: 100%;
   width: 40px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  box-shadow: 1px 1px 20px 20px #fff3;
+  box-shadow: 1px 1px 20px 20px rgba(255, 255, 255, .2);
 }
 
 .image-20:hover {
@@ -84,7 +90,7 @@
 
 .body-font.support {
   box-shadow: none;
-  background-color: #0000;
+  background-color: rgba(0, 0, 0, 0);
   margin-bottom: 8px;
   padding-left: 10px;
   display: inline-block;
@@ -94,7 +100,7 @@
 .body-font.middle-container {
   box-shadow: none;
   text-align: center;
-  background-color: #0000;
+  background-color: rgba(0, 0, 0, 0);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -104,7 +110,10 @@
   padding-left: 0;
   display: flex;
   position: absolute;
-  inset: 0%;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
 }
 
 .body-font.middle {
@@ -120,7 +129,10 @@
   margin-left: auto;
   margin-right: auto;
   position: fixed;
-  inset: 0%;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
 }
 
 .donate_button {
@@ -159,7 +171,10 @@
   width: 1px;
   height: 0;
   position: absolute;
-  inset: 0% 0% 0% auto;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
 }
 
 .support-icon {
@@ -181,7 +196,10 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  inset: 0%;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
   overflow: hidden;
   transform: rotate(180deg);
 }
@@ -190,22 +208,22 @@
   color: #fff;
   letter-spacing: .2ch;
   text-shadow: 1px 1px 1px #0054c2;
-  background-color: #ecff7e61;
+  background-color: rgba(236, 255, 126, .38);
   border: 2px solid #fff;
   border-radius: 0;
   padding-top: 0;
   padding-bottom: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 14px;
   font-weight: 700;
   position: relative;
   top: 3px;
-  box-shadow: 0 0 19px 12px #fdff7e61;
+  box-shadow: 0 0 19px 12px rgba(253, 255, 126, .38);
 }
 
 .tickets-button:hover {
-  background-color: #ecff7ecc;
-  box-shadow: 0 0 19px 12px #fdff7ecc;
+  background-color: rgba(236, 255, 126, .8);
+  box-shadow: 0 0 19px 12px rgba(253, 255, 126, .8);
 }
 
 .tickets-button.hide {
@@ -213,23 +231,23 @@
 }
 
 .tickets-button.is--red {
-  background-color: #ff7e8d61;
-  box-shadow: 0 0 19px 12px #ff7e8061;
+  background-color: rgba(255, 126, 141, .38);
+  box-shadow: 0 0 19px 12px rgba(255, 126, 128, .38);
 }
 
 .tickets-button.is--red:hover {
-  background-color: #ff002f7d;
-  box-shadow: 0 0 25px 20px #ff0004a6;
+  background-color: rgba(255, 0, 47, .49);
+  box-shadow: 0 0 25px 20px rgba(255, 0, 4, .65);
 }
 
 .tickets-button.is--blue {
-  background-color: #7e8dff61;
-  box-shadow: 0 0 19px 12px #7e91ff61;
+  background-color: rgba(126, 141, 255, .38);
+  box-shadow: 0 0 19px 12px rgba(126, 145, 255, .38);
 }
 
 .tickets-button.is--blue:hover {
-  background-color: #0073ff7d;
-  box-shadow: 0 0 25px 20px #006aff94;
+  background-color: rgba(0, 115, 255, .49);
+  box-shadow: 0 0 25px 20px rgba(0, 106, 255, .58);
 }
 
 .spring-tour-container {
@@ -243,7 +261,10 @@
   height: 100%;
   display: flex;
   position: absolute;
-  inset: 0% auto 0% -151px;
+  top: 0%;
+  bottom: 0%;
+  left: -151px;
+  right: auto;
 }
 
 .spring-tour-text {
@@ -257,7 +278,7 @@
 .donate-box {
   color: #162b94;
   text-align: center;
-  background-color: #ffffffad;
+  background-color: rgba(255, 255, 255, .68);
   width: 60vw;
   margin-top: 0;
   margin-left: auto;
@@ -269,7 +290,7 @@
   position: absolute;
   top: 94px;
   overflow: hidden;
-  box-shadow: 1px 1px 20px 20px #ffffffad;
+  box-shadow: 1px 1px 20px 20px rgba(255, 255, 255, .68);
 }
 
 .cryogeyser {
@@ -310,7 +331,10 @@
   border-radius: 100%;
   height: 200px;
   position: absolute;
-  inset: 0%;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
 }
 
 .dates {
@@ -365,7 +389,7 @@
 
 .body-8 {
   mix-blend-mode: multiply;
-  background-image: radial-gradient(circle, #fff 69%, #0051ff3d);
+  background-image: radial-gradient(circle, #fff 69%, rgba(0, 81, 255, .24));
   min-height: 100%;
 }
 
@@ -480,7 +504,10 @@
   padding-bottom: 200px;
   display: flex;
   position: relative;
-  inset: 0%;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
 }
 
 .citizen-logo {
@@ -505,7 +532,10 @@
   padding: 9px 25px;
   display: flex;
   position: fixed;
-  inset: 0% 0% auto;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
 }
 
 .nav-icon {
@@ -545,7 +575,7 @@
 
 .supporting-text.support {
   box-shadow: none;
-  background-color: #0000;
+  background-color: rgba(0, 0, 0, 0);
   margin-bottom: 8px;
   padding-left: 10px;
   display: inline-block;
@@ -555,7 +585,7 @@
 .supporting-text.middle-container {
   box-shadow: none;
   text-align: center;
-  background-color: #0000;
+  background-color: rgba(0, 0, 0, 0);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -565,7 +595,10 @@
   padding-left: 0;
   display: flex;
   position: absolute;
-  inset: 0%;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
 }
 
 .supporting-text.middle {
@@ -602,7 +635,10 @@
   height: 200px;
   display: block;
   position: absolute;
-  inset: auto auto 0%;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: auto;
 }
 
 .nav-button-wrapper {
@@ -619,13 +655,13 @@
 }
 
 .merch-button-image:hover {
-  filter: drop-shadow(1px 1px 10px #3214c880);
+  filter: drop-shadow(1px 1px 10px rgba(50, 20, 200, .5));
 }
 
 .merch-button-image.hover {
   z-index: 1;
   opacity: 0;
-  filter: drop-shadow(0 0 20px #3214c880);
+  filter: drop-shadow(0 0 20px rgba(50, 20, 200, .5));
   transition-property: opacity;
   transition-duration: .4s;
   transition-timing-function: ease;
@@ -693,7 +729,7 @@
 }
 
 .tickets-button-image:hover {
-  filter: drop-shadow(1px 1px 10px #3214c880);
+  filter: drop-shadow(1px 1px 10px rgba(50, 20, 200, .5));
 }
 
 .tickets-button-image.hover {
@@ -730,7 +766,10 @@
 .countdown {
   z-index: 1000;
   position: absolute;
-  inset: auto 0% -9%;
+  top: auto;
+  bottom: -9%;
+  left: 0%;
+  right: 0%;
 }
 
 .js-clock {
@@ -773,9 +812,13 @@
 
 .pre-save-wrapper {
   width: 100%;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 90px;
+  margin-bottom: 90px;
   position: relative;
+}
+
+.pre-save-wrapper.hide {
+  display: none;
 }
 
 .pre-save_image {
@@ -853,7 +896,14 @@
   filter: brightness(141%);
 }
 
-.nav-button-wrapper-copy, .button-wrapper {
+.nav-button-wrapper-copy {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.button-wrapper {
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -865,7 +915,7 @@
   background-color: #1db954;
   border-radius: 100px;
   flex: 0 auto;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -971,6 +1021,166 @@
   filter: brightness(141%);
 }
 
+.release-block {
+  cursor: pointer;
+  flex-flow: column;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: stretch;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+}
+
+.release-block.heart {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.release-block.heart.unavailable {
+  opacity: .36;
+  filter: brightness(141%);
+}
+
+.image-21 {
+  width: 30px;
+}
+
+.div-block {
+  width: 0;
+  height: 0;
+}
+
+.pre-save__apple-div {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  background-color: #fff;
+  border: 1px solid #fb3f55;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  display: flex;
+}
+
+.pre-save__text-apple {
+  color: #fb4c62;
+  text-align: center;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pre-save__text-apple.is--dark {
+  color: #000;
+}
+
+.link-block-2 {
+  text-decoration: none;
+}
+
+.streaming-wrapper {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.streaming-wrapper.hide {
+  display: none;
+}
+
+.stream-link_wrapper {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 1px solid #dfdfdf;
+  border-radius: 11px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
+  grid-auto-columns: 1fr;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
+
+.stream-link_item {
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 24px;
+  display: flex;
+}
+
+.stream-link_item:hover {
+  background-color: rgba(200, 217, 255, .2);
+}
+
+.stream-link_image {
+  height: 2rem;
+}
+
+.div-block-2 {
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 2rem;
+  display: flex;
+}
+
+.stream-button_text {
+  color: #000;
+  text-align: center;
+  letter-spacing: .1ch;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px #000;
+  width: 100%;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-decoration: none;
+}
+
+.stream-button_text.is--dark {
+  color: #000;
+}
+
+.link-block_plain {
+  text-decoration: none;
+}
+
+.link-block_plain.hide {
+  display: none;
+}
+
+.pre-save_text-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.release_image {
+  border: 1px solid #000;
+  border-radius: 14px;
+  width: 320px;
+  height: 320px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  transition: all .2s;
+}
+
 @media screen and (max-width: 991px) {
   .body-font {
     font-size: 14px;
@@ -1057,7 +1267,7 @@
     min-width: 370px;
   }
 
-  .main-wrapper, .button-main-wrapper, .pre-save-wrapper {
+  .main-wrapper, .button-main-wrapper, .pre-save-wrapper, .streaming-wrapper {
     margin-bottom: 80px;
   }
 }
@@ -1175,7 +1385,10 @@
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    inset: 0% 0% auto;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
   }
 
   .spring-tour-text {
@@ -1187,12 +1400,12 @@
 
   .donate-box {
     opacity: 1;
-    background-color: #dcacffb3;
+    background-color: rgba(220, 172, 255, .7);
     border-radius: 300px;
     height: 185px;
     left: 0;
     right: 0;
-    box-shadow: 1px 1px 40px 20px #d297ffb3;
+    box-shadow: 1px 1px 40px 20px rgba(210, 151, 255, .7);
   }
 
   .date-aside-container {
@@ -1218,7 +1431,7 @@
 
   .green-bg {
     mix-blend-mode: normal;
-    background-color: #45f3ab9e;
+    background-color: rgba(69, 243, 171, .62);
     height: auto;
     margin-bottom: -27px;
     margin-left: -14px;
@@ -1244,7 +1457,10 @@
     background-size: contain;
     display: block;
     position: fixed;
-    inset: 0%;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
   }
 
   .text-block-5 {
@@ -1355,7 +1571,10 @@
 
   .merch-button-image.hover {
     max-width: 100%;
-    inset: 0%;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
   }
 
   .main-wrapper {
@@ -1388,7 +1607,10 @@
 
   .tickets-button-image.hover {
     max-width: 100%;
-    inset: 0%;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
   }
 
   .countdown {
@@ -1473,6 +1695,46 @@
   .rsvp-link-block {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .release-block {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .pre-save__apple-div {
+    background-color: #1db954;
+    border-radius: 100px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .pre-save__text-apple {
+    color: #fff;
+    letter-spacing: .1ch;
+    text-shadow: none;
+    font-size: 12px;
+    line-height: 100%;
+  }
+
+  .streaming-wrapper {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .stream-button_text {
+    color: #000;
+    letter-spacing: .1ch;
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  .release_image {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: auto;
+    height: auto;
   }
 }
 
