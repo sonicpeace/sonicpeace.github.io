@@ -42,10 +42,7 @@
   margin-left: auto;
   margin-right: auto;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .main-container {
@@ -55,21 +52,18 @@
   padding-bottom: 200px;
   display: flex;
   position: relative;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .image-20 {
   z-index: -1;
-  background-color: rgba(255, 255, 255, .2);
+  background-color: #fff3;
   border-radius: 100%;
   width: 40px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  box-shadow: 1px 1px 20px 20px rgba(255, 255, 255, .2);
+  box-shadow: 1px 1px 20px 20px #fff3;
 }
 
 .image-20:hover {
@@ -90,7 +84,7 @@
 
 .body-font.support {
   box-shadow: none;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   margin-bottom: 8px;
   padding-left: 10px;
   display: inline-block;
@@ -100,7 +94,7 @@
 .body-font.middle-container {
   box-shadow: none;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -110,10 +104,7 @@
   padding-left: 0;
   display: flex;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .body-font.middle {
@@ -129,10 +120,7 @@
   margin-left: auto;
   margin-right: auto;
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .donate_button {
@@ -171,10 +159,7 @@
   width: 1px;
   height: 0;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% 0% auto;
 }
 
 .support-icon {
@@ -196,10 +181,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
   overflow: hidden;
   transform: rotate(180deg);
 }
@@ -208,22 +190,22 @@
   color: #fff;
   letter-spacing: .2ch;
   text-shadow: 1px 1px 1px #0054c2;
-  background-color: rgba(236, 255, 126, .38);
+  background-color: #ecff7e61;
   border: 2px solid #fff;
   border-radius: 0;
   padding-top: 0;
   padding-bottom: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 14px;
   font-weight: 700;
   position: relative;
   top: 3px;
-  box-shadow: 0 0 19px 12px rgba(253, 255, 126, .38);
+  box-shadow: 0 0 19px 12px #fdff7e61;
 }
 
 .tickets-button:hover {
-  background-color: rgba(236, 255, 126, .8);
-  box-shadow: 0 0 19px 12px rgba(253, 255, 126, .8);
+  background-color: #ecff7ecc;
+  box-shadow: 0 0 19px 12px #fdff7ecc;
 }
 
 .tickets-button.hide {
@@ -231,23 +213,23 @@
 }
 
 .tickets-button.is--red {
-  background-color: rgba(255, 126, 141, .38);
-  box-shadow: 0 0 19px 12px rgba(255, 126, 128, .38);
+  background-color: #ff7e8d61;
+  box-shadow: 0 0 19px 12px #ff7e8061;
 }
 
 .tickets-button.is--red:hover {
-  background-color: rgba(255, 0, 47, .49);
-  box-shadow: 0 0 25px 20px rgba(255, 0, 4, .65);
+  background-color: #ff002f7d;
+  box-shadow: 0 0 25px 20px #ff0004a6;
 }
 
 .tickets-button.is--blue {
-  background-color: rgba(126, 141, 255, .38);
-  box-shadow: 0 0 19px 12px rgba(126, 145, 255, .38);
+  background-color: #7e8dff61;
+  box-shadow: 0 0 19px 12px #7e91ff61;
 }
 
 .tickets-button.is--blue:hover {
-  background-color: rgba(0, 115, 255, .49);
-  box-shadow: 0 0 25px 20px rgba(0, 106, 255, .58);
+  background-color: #0073ff7d;
+  box-shadow: 0 0 25px 20px #006aff94;
 }
 
 .spring-tour-container {
@@ -261,10 +243,7 @@
   height: 100%;
   display: flex;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: -151px;
-  right: auto;
+  inset: 0% auto 0% -151px;
 }
 
 .spring-tour-text {
@@ -278,7 +257,7 @@
 .donate-box {
   color: #162b94;
   text-align: center;
-  background-color: rgba(255, 255, 255, .68);
+  background-color: #ffffffad;
   width: 60vw;
   margin-top: 0;
   margin-left: auto;
@@ -290,7 +269,7 @@
   position: absolute;
   top: 94px;
   overflow: hidden;
-  box-shadow: 1px 1px 20px 20px rgba(255, 255, 255, .68);
+  box-shadow: 1px 1px 20px 20px #ffffffad;
 }
 
 .cryogeyser {
@@ -331,10 +310,7 @@
   border-radius: 100%;
   height: 200px;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .dates {
@@ -389,7 +365,7 @@
 
 .body-8 {
   mix-blend-mode: multiply;
-  background-image: radial-gradient(circle, #fff 69%, rgba(0, 81, 255, .24));
+  background-image: radial-gradient(circle, #fff 69%, #0051ff3d);
   min-height: 100%;
 }
 
@@ -504,10 +480,7 @@
   padding-bottom: 200px;
   display: flex;
   position: relative;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .citizen-logo {
@@ -532,10 +505,7 @@
   padding: 9px 25px;
   display: flex;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .nav-icon {
@@ -575,7 +545,7 @@
 
 .supporting-text.support {
   box-shadow: none;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   margin-bottom: 8px;
   padding-left: 10px;
   display: inline-block;
@@ -585,7 +555,7 @@
 .supporting-text.middle-container {
   box-shadow: none;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -595,10 +565,7 @@
   padding-left: 0;
   display: flex;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .supporting-text.middle {
@@ -635,13 +602,12 @@
   height: 200px;
   display: block;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: auto;
-  right: auto;
+  inset: auto auto 0%;
 }
 
 .nav-button-wrapper {
+  grid-column-gap: 10vw;
+  grid-row-gap: 10vw;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -649,19 +615,19 @@
 
 .merch-button-image {
   cursor: pointer;
-  max-width: 42vw;
+  max-width: 30vw;
   padding: 20px;
   position: relative;
 }
 
 .merch-button-image:hover {
-  filter: drop-shadow(1px 1px 10px rgba(50, 20, 200, .5));
+  filter: drop-shadow(1px 1px 10px #3214c880);
 }
 
 .merch-button-image.hover {
   z-index: 1;
   opacity: 0;
-  filter: drop-shadow(0 0 20px rgba(50, 20, 200, .5));
+  filter: drop-shadow(0 0 20px #3214c880);
   transition-property: opacity;
   transition-duration: .4s;
   transition-timing-function: ease;
@@ -723,13 +689,13 @@
 
 .tickets-button-image {
   cursor: pointer;
-  max-width: 40vw;
+  max-width: 26vw;
   padding: 20px;
   position: relative;
 }
 
 .tickets-button-image:hover {
-  filter: drop-shadow(1px 1px 10px rgba(50, 20, 200, .5));
+  filter: drop-shadow(1px 1px 10px #3214c880);
 }
 
 .tickets-button-image.hover {
@@ -766,10 +732,7 @@
 .countdown {
   z-index: 1000;
   position: absolute;
-  top: auto;
-  bottom: -9%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% -9%;
 }
 
 .js-clock {
@@ -1121,7 +1084,7 @@
 }
 
 .stream-link_item:hover {
-  background-color: rgba(200, 217, 255, .2);
+  background-color: #c8d9ff33;
 }
 
 .stream-link_image {
@@ -1212,7 +1175,7 @@
 
 .press-wrapper {
   width: 100%;
-  margin-top: -20px;
+  margin-top: 0;
   margin-bottom: -20px;
   padding-left: 80px;
   padding-right: 80px;
@@ -1478,10 +1441,7 @@
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: 0%;
+    inset: 0% 0% auto;
   }
 
   .spring-tour-text {
@@ -1493,12 +1453,12 @@
 
   .donate-box {
     opacity: 1;
-    background-color: rgba(220, 172, 255, .7);
+    background-color: #dcacffb3;
     border-radius: 300px;
     height: 185px;
     left: 0;
     right: 0;
-    box-shadow: 1px 1px 40px 20px rgba(210, 151, 255, .7);
+    box-shadow: 1px 1px 40px 20px #d297ffb3;
   }
 
   .date-aside-container {
@@ -1524,7 +1484,7 @@
 
   .green-bg {
     mix-blend-mode: normal;
-    background-color: rgba(69, 243, 171, .62);
+    background-color: #45f3ab9e;
     height: auto;
     margin-bottom: -27px;
     margin-left: -14px;
@@ -1550,10 +1510,7 @@
     background-size: contain;
     display: block;
     position: fixed;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: 0%;
   }
 
   .text-block-5 {
@@ -1664,10 +1621,7 @@
 
   .merch-button-image.hover {
     max-width: 100%;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: 0%;
   }
 
   .main-wrapper {
@@ -1700,10 +1654,7 @@
 
   .tickets-button-image.hover {
     max-width: 100%;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: 0%;
   }
 
   .countdown {
