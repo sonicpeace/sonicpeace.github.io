@@ -1404,6 +1404,10 @@
   padding-right: 80px;
 }
 
+.new-tour-bg, .new-tour-bg-ribbon {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .body-font {
     font-size: 14px;
@@ -2046,6 +2050,12 @@
     margin-left: auto;
   }
 
+  .nav-link-text {
+    letter-spacing: .1ch;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
   .nav-link-text.support {
     bottom: -5px;
     left: -5px;
@@ -2055,6 +2065,49 @@
     justify-content: flex-start;
     width: auto;
     margin-left: auto;
+  }
+
+  .new-tour-bg {
+    opacity: .75;
+    mix-blend-mode: multiply;
+    display: block;
+    position: fixed;
+    inset: 0%;
+  }
+
+  .bg-hearts-right {
+    opacity: .9;
+    filter: brightness(116%);
+    position: absolute;
+    inset: auto 0% 0% auto;
+  }
+
+  .bg-hearts-left {
+    opacity: .91;
+    filter: brightness(118%);
+    display: inline-block;
+    position: absolute;
+    top: 41px;
+    bottom: 0;
+    left: -1px;
+  }
+
+  .image-22 {
+    z-index: -100;
+    opacity: .7;
+    filter: brightness(122%);
+    width: 250px;
+    position: absolute;
+    inset: 26px -39px 0% auto;
+  }
+
+  .new-tour-bg-ribbon {
+    z-index: -100;
+    opacity: .65;
+    mix-blend-mode: screen;
+    display: block;
+    position: fixed;
+    inset: 0%;
   }
 }
 
